@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		495AFBDE259B6FFD004856B4 /* FilmBookSerial111.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmBookSerial111.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		495AFBDE259B6FFD004856B4 /* FilmBookSerialGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmBookSerialGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		495AFBE1259B6FFD004856B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		495AFBE3259B6FFD004856B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		495AFBE8259B6FFD004856B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		495AFBDF259B6FFD004856B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				495AFBDE259B6FFD004856B4 /* FilmBookSerial111.app */,
+				495AFBDE259B6FFD004856B4 /* FilmBookSerialGame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,9 +84,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		495AFBDD259B6FFD004856B4 /* FilmBookSerial111 */ = {
+		495AFBDD259B6FFD004856B4 /* FilmBookSerialGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 495AFBF5259B6FFF004856B4 /* Build configuration list for PBXNativeTarget "FilmBookSerial111" */;
+			buildConfigurationList = 495AFBF5259B6FFF004856B4 /* Build configuration list for PBXNativeTarget "FilmBookSerialGame" */;
 			buildPhases = (
 				495AFBDA259B6FFD004856B4 /* Sources */,
 				495AFBDB259B6FFD004856B4 /* Frameworks */,
@@ -96,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = FilmBookSerial111;
+			name = FilmBookSerialGame;
 			productName = FilmBookSerial;
-			productReference = 495AFBDE259B6FFD004856B4 /* FilmBookSerial111.app */;
+			productReference = 495AFBDE259B6FFD004856B4 /* FilmBookSerialGame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +115,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 495AFBD9259B6FFD004856B4 /* Build configuration list for PBXProject "FilmBookSerial111" */;
+			buildConfigurationList = 495AFBD9259B6FFD004856B4 /* Build configuration list for PBXProject "FilmBookSerialGame" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,7 +128,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				495AFBDD259B6FFD004856B4 /* FilmBookSerial111 */,
+				495AFBDD259B6FFD004856B4 /* FilmBookSerialGame */,
 			);
 		};
 /* End PBXProject section */
@@ -338,7 +338,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		495AFBD9259B6FFD004856B4 /* Build configuration list for PBXProject "FilmBookSerial111" */ = {
+		495AFBD9259B6FFD004856B4 /* Build configuration list for PBXProject "FilmBookSerialGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				495AFBF3259B6FFF004856B4 /* Debug */,
@@ -347,7 +347,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		495AFBF5259B6FFF004856B4 /* Build configuration list for PBXNativeTarget "FilmBookSerial111" */ = {
+		495AFBF5259B6FFF004856B4 /* Build configuration list for PBXNativeTarget "FilmBookSerialGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				495AFBF6259B6FFF004856B4 /* Debug */,

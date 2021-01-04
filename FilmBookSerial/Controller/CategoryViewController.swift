@@ -18,7 +18,6 @@ class CategoryViewController: UITableViewController {
         super.viewDidLoad()
         
         print(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask))
-        
     }
     
     // MARK: - Table view data source
@@ -97,21 +96,9 @@ class CategoryViewController: UITableViewController {
     
     func deleteAllData(entity: String)
     {
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        let managedContext = appDelegate.persistentContainer.managedObjectModel
-        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: entity)
-        fetchRequest.returnsObjectsAsFaults = false
-
-        do
-        {
-            let results = try managedContext.executeFetchRequest(fetchRequest)
-            for managedObject in results
-            {
-                let managedObjectData:NSManagedObject = managedObject as! NSManagedObject
-                managedContext.deleteObject(managedObjectData)
-            }
-        } catch let error as NSError {
-            print("Detele all data in \(entity) error : \(error) \(error.userInfo)")
-        }
+        let ReqVar = NSFetchRequest<NSFetchRequestResult>(entityName: entity)
+        let DelAllReqVar = NSBatchDeleteRequest(fetchRequest: ReqVar)
+        do { try context.execute(DelAllReqVar) }
+        catch { print(error) }
     }
 }
