@@ -62,9 +62,9 @@
 			children = (
 				495AFBE1259B6FFD004856B4 /* AppDelegate.swift */,
 				495AFBE3259B6FFD004856B4 /* SceneDelegate.swift */,
-				495AFBEA259B6FFD004856B4 /* FilmBookSerial.xcdatamodeld */,
+				49CF888225A46F53005A80D0 /* Model */,
 				495AFBFC259B7276004856B4 /* Controller */,
-				495AFBE7259B6FFD004856B4 /* Main.storyboard */,
+				49CF888325A46F5A005A80D0 /* View */,
 				495AFBED259B6FFF004856B4 /* Assets.xcassets */,
 				495AFBEF259B6FFF004856B4 /* LaunchScreen.storyboard */,
 				495AFBF2259B6FFF004856B4 /* Info.plist */,
@@ -79,6 +79,22 @@
 				495AFBFE259B72A9004856B4 /* ItemViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		49CF888225A46F53005A80D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				495AFBEA259B6FFD004856B4 /* FilmBookSerial.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49CF888325A46F5A005A80D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				495AFBE7259B6FFD004856B4 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
